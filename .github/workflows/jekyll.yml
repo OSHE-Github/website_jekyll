@@ -51,15 +51,15 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
-      - name: Copy folder to server
-        uses: garygrossgarten/github-action-scp@release
+      - name: Copy files via SSH
+        uses: appleboy/scp-action@v1
         with:
-            local: _site
-            remote: /itss/home/openhard/public_html
-            host: ${{ secrets.HOST }}
-            username: ${{ secrets.USERNAME }}
-            #password: ${{ secrets.PASSWORD }}
-            privateKey: ${{ secrets.PRIVATE_KEY }}
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          key: ${{ secrets.PRIVATE_KEY }}
+          source: _site
+          target: /itss/home/openhard/public_html
 
   # Deployment job
   deploy:
