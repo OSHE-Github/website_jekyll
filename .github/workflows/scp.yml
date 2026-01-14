@@ -1,25 +1,16 @@
-name: SCP
-
-on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
-    
+name: scp files
+on: [push]
 jobs:
-  - name: SCP Command to Transfer Files
-    uses: appleboy/scp-action@v1.0.name: scp files
-    on: [push]
-    jobs:
-      build:
-        runs-on: ubuntu-latest
-        steps:
-          - uses: actions/checkout@v4
-          - name: Copy files via SSH
-            uses: appleboy/scp-action@v1
-            with:
-              host: ${{ secrets.HOST }}
-              username: ${{ secrets.USERNAME }}
-              password: ${{ secrets.PASSWORD }}
-              privateKey: ${{ secrets.PRIVATE_KEY }}
-              source: _site
-              target: /itss/home/openhard/public_html
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy files via SSH
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          privateKey: ${{ secrets.PRIVATE_KEY }}
+          source: _site
+          target: /itss/home/openhard/public_html
