@@ -34,10 +34,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Ruby
-        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
-        run: source 
+        # Enter the ruby virtual environment
+        run: source ${{ secrets.RUBY_PATH }}
       - name: Build with Jekyll
         # Outputs to the 'public_html' directory by default
-        run: jekyll build
-        env:
-          JEKYLL_ENV: production
+        run: cd ${{ secrets.SITE_PATH }} && jekyll build
