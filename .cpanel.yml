@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - cd /itss/home/openhard/ruby/website_jekyll && jekyll build
+    - cd /itss/home/openhard/ruby/website_jekyll
+    - jekyll build
