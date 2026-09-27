@@ -1,0 +1,26 @@
+---
+layout: project
+title: "MultiFX"
+date: 2025-04-14 13:54:05
+team_members:
+- "Ava Micek"
+- "Noki Heroux"
+- "Jay Hawkins"
+- "Nate Vandergiessen"
+- "John Putnam"
+- "Anna Andres"
+- "Xavier Haupt"
+- "Georgia Heintz"
+- "Tori Frighetto"
+- "Eric Riebe"
+categories:
+- project
+tagged: "audio-effects, Raspberry-Pi, embedded-audio, pedal, music-tech"
+client: Dr. Pinar
+img: multifx.png
+carousel:
+- multifx.png
+website: https://github.com/OSHE-Github/MultiFX
+---
+#### MultiFX
+The MultiFX Pedal is an open-source, modular multi-effects processor built around a Raspberry Pi. It integrates a control PCB with three rotary encoders, a footswitch, a HiFiBerry-class DAC HAT for audio I/O, and a Python/PyQt5 GUI that controls audio effects via MOD-host and JACK.

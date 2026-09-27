@@ -267,6 +267,22 @@ a:focus {
 	display:block;
 }
 
+.portfolio-item .he-wrap {
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+}
+
+.portfolio-item .he-wrap > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.portfolio-placeholder {
+	width: 100%;
+	height: 100%;
+	background-color: #d8d8d8;
+}
 
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
@@ -402,8 +418,8 @@ a:focus {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: 600px;
-  max-height: 600px;
+	width: auto;
+	height: auto;
   margin: 0 auto;
 }
 
@@ -505,4 +521,26 @@ a.anchor{
     position: relative; 
     top: -80px; 
     visibility: hidden;
+}
+
+/* CUSTOM CSS FOR MEMBER PAGE */
+
+/* 1. Locks the container to a vertical portrait aspect ratio (3:4) */
+.uniform-ratio-card {
+    width: 100% !important;
+    aspect-ratio: 3 / 4 !important; /* Forces a uniform portrait shape */
+    overflow: hidden !important;
+}
+
+/* 2. Clips the images perfectly inside that ratio without distortion */
+.uniform-ratio-card img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Fills the aspect ratio beautifully */
+}
+
+/* 3. Normalizes row heights in older Bootstrap versions so elements align straight */
+.style-flex-rows {
+    display: flex !important;
+    flex-wrap: wrap !important;
 }

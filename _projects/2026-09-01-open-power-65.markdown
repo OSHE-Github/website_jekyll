@@ -1,0 +1,18 @@
+---
+layout: project
+title: "Open Power 65"
+date: 2026-09-01
+team_members:
+- "Peter Kocour"
+- "Trevor Drys"
+- "Alex Ritter"
+- "Zachary Wiechec"
+categories:
+- project
+tagged: "power-supply, USB-C, USB-PD, GaN, SiC, electronics"
+client: Enterprise-funded
+img: new-project-placeholder.png
+website: https://github.com/OSHE-Github/open-power-65
+---
+#### Open Power 65
+Open Power 65 is developing up to three open power-supply platforms using GaN, SiC, and silicon technologies. The specification also describes a USB-C Power Delivery module and a microcontroller-based power monitor for loads up to 65 watts.

@@ -1,0 +1,27 @@
+---
+layout: project
+title: "Echo-Net"
+date: 2026-01-10 02:10:57
+team_members:
+- "Eric Riebe"
+- "Jacob Hatch"
+- "Jayden Heller"
+- "Keegan Henderson"
+- "Alex Ossenheimer"
+categories:
+- project
+tagged: "RFID, wildlife-monitoring, bat-research, tracking, embedded-systems"
+client: Enterprise-funded
+img: echo-net.jpg
+carousel:
+- echo-net-07.jpg
+- echo-net-05.png
+- echo-net-06.png
+- echo-net-19.jpg
+- echo-net-25.png
+website: https://github.com/OSHE-Github/Echo-Net
+---
+#### Echo-Net
+Over the past two decades, Pseudogymnoscas destructans, the fungal pathogen responsible for white-nose syndrome, has been spreading across North America, killing over 90% of northern long-eared, little brown, and tri-colored bats in some areas. The fungus forces premature arousals forcing bats to expend more energy and sometimes forces them move to roosting areas of the cave that are colder but less temperature stable, which can result in cold snaps killing them.  Due to the high mortality of this disease, researchers are looking into bats' winter movement within and between hibernacula. Currently, tracking in the UP is done with bat bands on the forearm of the bat which requires recapturing bats to count, which is invasive and disruptful. The goal of this project is to replace this system with an automated RFID tracking system. RFID tags have been used in many different wildlife applications such as detecting fish and turtles returning for hatching. When using RFID tags with wildlife there are design contraints that limit what you can do, one such constraint when working with bats is that the deivce attached to them can not be more than 5% of the bats mass. This results in the need to create a lightweight design to attach to the bat and allow for autonomous tracking of their movements.	
+This project aims to assist bat research by creating a small lightweight external RFID tracking device. This device would allow researchers to easily tag bats with external tags, reducing the invasiveness of the process and allowing them to obtain data on the movement of bats. 
+While these devices are being developed with the intention of bats in mind their applications can stretch beyond that of cave dwelling winged rats. This project sets a platform for using small RFID tags to track not just animals but anything that can be tagged. Allowing for branching in fields such as inventory management or item tracking.

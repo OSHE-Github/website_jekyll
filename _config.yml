@@ -61,13 +61,60 @@ email: oshe_help-l@mtu.com
 members:
   - name: Shane Oberloier
     position: Faculty Advisor
-    text: "mmm pizza bagel"
     img: oberloier.jpg
     social:
       - title: envelope #use for email address
         url: mailto:swoberlo@mtu.edu
-      - title: website
+      - title: globe
         url: https://oberloier.com/
+  - name: Peter Kocour
+    position: President
+    img: peter.png
+    social:
+      - title: envelope #use for email address
+        url: mailto:pmkocour@mtu.edu
+  - name: Eric Riebe
+    position: Vice President
+    img: eric.png
+    social:
+      - title: envelope
+        url: mailto:ejriebe@mtu.edu
+  - name: Lindsay Stone
+    position: Chief of Staff
+    img: lindsay.png
+    social:
+      - title: envelope
+        url: mailto:lstone@mtu.edu
+  - name: Jeff Gillis
+    position: Lab Czar
+    img: jeff.png
+    social:
+      - title: envelope
+        url: mailto:bjgillis@mtu.edu
+  - name: Ben May
+    position: Electrical Lead
+    img: ben.png
+    social:
+      - title: envelope
+        url: mailto:bmmay@mtu.edu
+  - name: Riley Patterson
+    position: Software Lead
+    img: riley.png
+    social:
+      - title: envelope
+        url: mailto:rileyp@mtu.edu
+  - name: Joey Pokuta
+    position: Robotics Lead
+    img: joey.png
+    social:
+      - title: envelope
+        url: mailto:jrpokuta@mtu.edu
+  - name: Emma Albert
+    position: Mechanical Lead
+    img: emma.png
+    social:
+      - title: envelope
+        url: mailto:eralbert@mtu.edu
 
 # Clients information. Shown on Home and About pages.
 clients:

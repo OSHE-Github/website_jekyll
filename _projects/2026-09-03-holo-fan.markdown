@@ -1,0 +1,19 @@
+---
+layout: project
+title: "HOLO-Fan"
+date: 2026-09-03
+team_members:
+- "Emma Albert"
+- "Jackson Wiles"
+- "Alycia Greer"
+- "Auston Deegan"
+- "Lindsay Stone"
+categories:
+- project
+tagged: "persistence-of-vision, holographic-display, embedded-systems, outreach"
+client: Enterprise-funded
+img: new-project-placeholder.png
+website: https://github.com/OSHE-Github/HOLO-Fan
+---
+#### HOLO-Fan
+HOLO-Fan is an open-source holographic display for outreach and educational demonstrations. The Fall 2026 project uses persistence-of-vision technology and documents both the structure and control code.

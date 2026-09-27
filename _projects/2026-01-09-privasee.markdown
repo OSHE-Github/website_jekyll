@@ -1,0 +1,25 @@
+---
+layout: project
+title: "PrivaSee"
+date: 2026-01-09
+team_members:
+- "Jeffrey Gillis"
+- "JR Mooren"
+- "Bethany Brown"
+- "Bryson Lor"
+- "Bradley Burkard"
+- "Thatcher Simon"
+- "Malachai Strong"
+- "Ryan Tesch"
+- "Seth Gaboury"
+- "Emma Alderson"
+- "Lindsay Stone"
+categories:
+- project
+tagged: "privacy, camera-detection, infrared, radio-frequency, security"
+client: Enterprise-funded
+img: new-project-placeholder.png
+website: https://github.com/OSHE-Github/Privasee
+---
+#### PrivaSee
+PrivaSee is a portable, low-cost device for detecting hidden cameras. The project combines infrared and radio-frequency detection methods and is moving from prototype toward a more complete enclosure and user experience.

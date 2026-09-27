@@ -1,0 +1,19 @@
+---
+layout: project
+title: "HoloBird"
+date: 2026-04-22
+team_members:
+- "Ryan Leggett"
+- "Andrew Kroll"
+- "Caleb Miller"
+- "Nathan Sugars"
+- "Tyler Goeman"
+categories:
+- project
+tagged: "bird-deterrent, holography, Raspberry-Pi, wildlife, computer-vision"
+client: Enterprise-funded
+img: new-project-placeholder.png
+website: https://github.com/OSHE-Github/HoloBird
+---
+#### HoloBird
+HoloBird is a weather-resistant holographic bird deterrent. The project uses a Raspberry Pi and a plexiglass prism to display realistic bird behavior from multiple viewing directions.

@@ -1,0 +1,21 @@
+---
+layout: project
+title: "UPS Hat"
+date: 2026-01-10
+team_members:
+- "John Putnam"
+- "Tyler Blazoff"
+- "Andrew Edick"
+- "Lucas Centner"
+- "Mason Menosky"
+- "Andrew Kroll"
+- "Alex Ritter"
+categories:
+- project
+tagged: "UPS, Raspberry-Pi-5, power-management, battery, PCB, USB-C"
+client: Enterprise-funded
+img: new-project-placeholder.png
+website: https://github.com/OSHE-Github/UPS
+---
+#### UPS Hat
+The UPS Hat project is designing an open-source uninterruptible power supply compatible with the Raspberry Pi 5. The specifications cover battery protection, power-path charging, status indication, and a PCB-backed prototype.

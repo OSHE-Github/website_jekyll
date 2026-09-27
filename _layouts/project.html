@@ -19,12 +19,18 @@ layout: default
             <div class="spacing"></div>
             <h4>Project Details</h4>
             <div class="hline"></div>
-            <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
-            <p><b>Author:</b> {{ page.author }}</p>
-            <p><b>Categories:</b> {{ page.categories }}</p>
-            <p><b>Tagged:</b> {{ page.tagged }}</p>
-            <p><b>Client:</b> {{ page.client }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            {% if page.date %}<p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>{% endif %}
+            {% if page.team_members and page.team_members.size > 0 %}<p><b>Team Members:</b> {{ page.team_members | join: ", " }}</p>{% endif %}
+            {% if page.categories %}<p><b>Categories:</b> {{ page.categories }}</p>{% endif %}
+            {% if page.tagged %}<p><b>Tagged:</b> {{ page.tagged }}</p>{% endif %}
+            {% if page.client %}<p><b>Client:</b> {{ page.client }}</p>{% endif %}
+            {% if page.websites %}
+            <p><b>Website:</b>
+                {% for website in page.websites %}
+                    <a href="{{ website.url }}">{{ website.title }}</a>{% unless forloop.last %} | {% endunless %}
+                {% endfor %}
+            </p>
+            {% elsif page.website %}<p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>{% endif %}
         </div>
     </div><! --/row -->
 </div><! --/container -->
