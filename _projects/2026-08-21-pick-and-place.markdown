@@ -26,7 +26,7 @@ carousel:
 - pick-and-place-09.jpg
 - pick-and-place-10.jpg
 tagged: 3D-printing, mechanical, pcb, robotics
-client: Enterprise-funded
+client: Harbor Country Marine
 website: https://github.com/OSHE-Github/OSHE-PnP
 ---
 #### Pick'N'Place

@@ -128,6 +128,8 @@ clients:
     img: plexus.png
   - name: Michigan Technological University
     img: mtu.png
+  - name: Harbor Country Marine
+    img: harbor_country_marine_logo.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Open Source Hardware specializes in building low-cost alternatives to expensive hardware/software, and then sharing the designs with the commons so that collaborative improvements can be made rapidly. Anyone can make changes or updates to the designs the Enterprise team creates—through this process, designs are improved at a much higher rate than would be possible within the Enterprise alone. Open source is all about collaboration."
